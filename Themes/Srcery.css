@@ -9,6 +9,7 @@ meta {
  * Window styles
  */
 meta.window {
+    background-color: hsl(40, 6%, 10%);
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 meta.titlebar {
@@ -50,7 +51,7 @@ meta.textfield.highlighted {
  * Document styles
  */
 meta.document {
-    background-color: hsl(210, 5%, 11%);
+    background-color: hsl(40, 6%, 10%);
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 
@@ -76,7 +77,7 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-    color: hsl(210, 49%, 90%);
+    color: hsl(40, 30%, 61%);
 }
 meta.text.invisible {
     color: hsla(210, 100%, 90%, 0.15);
@@ -108,7 +109,7 @@ meta.gutter.selected {
  * Syntax styles
  */
 comment {
-    color: hsl(210, 20%, 50%);
+    color: hsl(209, 70%, 65%);
 }
 processing {
     color: hsl(210, 20%, 50%);
@@ -117,10 +118,10 @@ declaration {
     color: hsl(210, 20%, 50%);
 }
 bracket {
-    color: hsl(210, 50%, 70%);
+    color: hsl(40, 30%, 61%);
 }
 operator {
-    color: hsl(210, 50%, 70%);
+    color: hsl(40, 30%, 61%);
 }
 invalid {
     background-color: hsl(0, 90%, 60%);
@@ -162,7 +163,7 @@ value.null {
     color: hsl(210, 100%, 70%);
 }
 value.number {
-    color: hsl(45, 50%, 80%);
+    color: hsl(209, 63%, 46%);
 }
 value.entity {
     color: hsl(210, 100%, 70%);
@@ -217,7 +218,7 @@ string.escape {
     color: hsl(5, 80%, 80%);
 }
 string.key {
-    color: hsl(270, 80%, 80%);
+    color: hsl(338, 74%, 53%);
 }
 string-keyword {
     color: hsl(30, 100%, 90%);
@@ -289,10 +290,10 @@ tag.name {
     color: hsl(160, 60%, 60%);
 }
 tag.framework {
-    color: hsl(280, 30%, 50%);
+    color: hsl(338, 74%, 53%);
 }
 tag.framework.name {
-    color: hsl(280, 60%, 70%);
+    color: hsl(338, 74%, 53%);
 }
 tag.attribute.name {
     color: hsl(100, 60%, 70%);
@@ -325,10 +326,10 @@ style.selector.identifier.id {
     color: hsl(32, 90%, 70%);
 }
 style.selector.identifier.class {
-    color: hsl(100, 60%, 70%);
+    color: hsl(119, 33%, 47%);
 }
 style.selector.pseudoclass {
-    color: hsl(270, 80%, 80%);
+    color: hsl(338, 74%, 53%);
 }
 style.selector.pseudoelement {
     color: hsl(32, 90%, 70%);
@@ -337,7 +338,7 @@ style.attribute.name {
     color: hsl(190, 85%, 65%);
 }
 style.value.number {
-    color: hsl(45, 50%, 80%);
+    color: hsl(209, 63%, 46%);
 }
 style.value.color.hex {
     color: hsl(45, 50%, 80%);
