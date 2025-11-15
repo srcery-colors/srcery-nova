@@ -339,7 +339,6 @@ definition.package.name,
 definition.enum.name,
 definition.union.name,
 definition.struct.name {
-    
 }
 
 /* Members */
@@ -347,7 +346,6 @@ definition.property.name {
 }
 definition.function.name,
 definition.method.name {
-    
 }
 
 /* Tags */
@@ -404,7 +402,7 @@ style.selector.pseudoelement {
     color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 style.attribute.name {
-    color: hsl(41, 96%, 57%); /* srcery yellow */
+    color: hsl(40, 30%, 61%); /* srcery white */
 }
 style.value.number {
     color: hsl(338, 74%, 53%); /* srcery magenta */
