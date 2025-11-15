@@ -78,22 +78,22 @@ meta {
  */
 meta.window {
     background-color: hsl(40, 6%, 10%); /* srcery black */
-    border-color: hsla(0, 0%, 100%, 0.1);
+    border-color: hsla(6, 92%, 61%, 0.2); /* srcery red */
 }
 meta.titlebar {
     color: hsl(40, 30%, 61%); /* srcery white */
-    border-color: hsla(0, 0%, 0%, 0.6);
+    border-color: hsla(41, 96%, 57%, 0.5); /* srcery yellow */
 }
 meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(0, 0%, 32%), hsl(0, 0%, 25%));
-    border: linear-gradient(hsl(0, 0%, 17%), hsl(0, 0%, 13%));
+    background: linear-gradient(hsl(0, 0%, 31%) /* srcery xgray5 */, hsl(0, 0%, 23%) /* srcery xgray3 */);
+    border-color: hsl(209, 63%, 46%); /* srcery blue */
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(0, 0%, 42%), hsl(0, 0%, 34%));
+    background: linear-gradient(hsl(0, 0%, 42%) /* srcery xgray8 */, hsl(0, 0%, 35%) /* srcery xgray6 */);
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.selected {
@@ -103,16 +103,18 @@ meta.button.highlighted.selected {
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.disabled {
-    
+  background-color: hsl(0, 0%, 27%); /* srcery xgray 4 */
+  border-color: hsl(2, 86%, 55%); /* srcery red */
+  color: hsl(0, 0%, 7%); /* srcery hard black */
 }
 
 meta.textfield {
     background-color: hsl(40, 6%, 10%); /* srcery black */
-    border-color: hsl(0, 0%, 23%);
+    border-color: hsl(119, 33%, 47%); /* srcery green */
 }
 meta.textfield.highlighted {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
-    border-color: hsl(0, 0%, 23%);
+    background-color: hsl(0, 0%, 7%); /* srcery hard black */
+    border-color: hsl(119, 33%, 47%); /* srcery green */
 }
 
 /*
