@@ -4,80 +4,148 @@ meta {
     -theme-accent-color: auto;
 }
 
+:root.NovaThemeSrcery {
+  /* srcery black */
+  --srcery-black: hsl(40, 6%, 10%);
+  /* srcery bright black */
+  --srcery-bright-black: hsl(26, 11%, 51%);
+  /* srcery red */
+  --srcery-red: hsl(2, 86%, 55%);
+  /* srcery bright red */
+  --srcery-bright-red: hsl(6, 92%, 61%);
+  /* srcery green */
+  --srcery-green: hsl(119, 33%, 47%);
+  /* srcery bright green */
+  --srcery-bright-green: hsl(76, 55%, 48%);
+  /* srcery yellow */
+  --srcery-yellow: hsl(41, 96%, 57%);
+  /* srcery bright yellow */
+  --srcery-bright-yellow: hsl(41, 99%, 71%);
+  /* srcery blue */
+  --srcery-blue: hsl(209, 63%, 46%);
+  /* srcery bright blue */
+  --srcery-bright-blue: hsl(209, 70%, 65%);
+  /* srcery magenta */
+  --srcery-magenta: hsl(338, 74%, 53%);
+  /* srcery bright magenta */
+  --srcery-bright-magenta: hsl(341, 100%, 68%);
+  /* srcery cyan */
+  --srcery-cyan: hsl(182, 89%, 37%);
+  /* srcery bright cyan */
+  --srcery-bright-cyan: hsl(174, 77%, 53%);
+  /* srcery white */
+  --srcery-white: hsl(40, 30%, 61%);
+  /* srcery bright white */
+  --srcery-bright-white: hsl(39, 90%, 88%);
+  /* srcery orange */
+  --srcery-orange: hsl(22, 100%, 50%);
+  /* srcery bright orange */
+  --srcery-bright-orange: hsl(32, 100%, 50%);
+  /* srcery teal */
+  --srcery-teal: hsl(180, 100%, 25%);
+  /* srcery hard black */
+  --srcery-hard-black: hsl(0, 0%, 7%);
+  /* srcery xgray ex */
+  --srcery-xgrayex: hsl(0, 0%, 11%);
+  /* srcery xgray 1 */
+  --srcery-xgray1: hsl(0, 0%, 15%);
+  /* srcery xgray 2 */
+  --srcery-xgray2: hsl(0, 0%, 19%);
+  /* srcery xgray 3 */
+  --srcery-xgray3: hsl(0, 0%, 23%);
+  /* srcery xgray 4 */
+  --srcery-xgray4: hsl(0, 0%, 27%);
+  /* srcery xgray 5 */
+  --srcery-xgray5: hsl(0, 0%, 31%);
+  /* srcery xgray 6 */
+  --srcery-xgray6: hsl(0, 0%, 35%);
+  /* srcery xgray 7 */
+  --srcery-xgray7: hsl(0, 0%, 38%);
+  /* srcery xgray 8 */
+  --srcery-xgray8: hsl(0, 0%, 42%);
+  /* srcery xgray 9 */
+  --srcery-xgray9: hsl(0, 0%, 46%);
+  /* srcery xgray 10 */
+  --srcery-xgray10: hsl(0, 0%, 50%);
+  /* srcery xgray 11 */
+  --srcery-xgray11: hsl(0, 0%, 54%);
+  /* srcery xgray 12 */
+  --srcery-xgray12: hsl(0, 0%, 58%);
+  }
 
 /*
  * Window styles
  */
 meta.window {
-    background-color: hsl(40, 6%, 10%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 meta.titlebar {
-    color: hsl(210, 17%, 76%);
+    color: hsl(40, 30%, 61%); /* srcery white */
     border-color: hsla(0, 0%, 0%, 0.6);
 }
 meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%));
-    border: linear-gradient(hsl(210, 5%, 17%), hsl(210, 5%, 13%));
-    color: white;
+    background: linear-gradient(hsl(0, 0%, 32%), hsl(0, 0%, 25%));
+    border: linear-gradient(hsl(0, 0%, 17%), hsl(0, 0%, 13%));
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(210, 5%, 42%), hsl(210, 5%, 34%));
-    color: white;
+    background: linear-gradient(hsl(0, 0%, 42%), hsl(0, 0%, 34%));
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.selected {
-    color: white;
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.highlighted.selected {
-    color: white;
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.disabled {
     
 }
 
 meta.textfield {
-    background-color: hsl(210, 5%, 13%);
-    border-color: hsl(210, 5%, 23%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
+    border-color: hsl(0, 0%, 23%);
 }
 meta.textfield.highlighted {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 23%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
+    border-color: hsl(0, 0%, 23%);
 }
 
 /*
  * Document styles
  */
 meta.document {
-    background-color: hsl(40, 6%, 10%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 
 meta.document.button {
-    background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%));
-    border: linear-gradient(hsl(210, 5%, 11%), hsl(210, 5%, 8%));
+    background: linear-gradient(hsl(0, 0%, 25%), hsl(0, 0%, 21%));
+    border: linear-gradient(hsl(0, 0%, 11%), hsl(0, 0%, 8%));
 }
 meta.document.button.disabled {
     background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
 }
 meta.document.button.highlighted {
-    background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%));
+    background: linear-gradient(hsl(0, 0%, 34%), hsl(0, 0%, 30%));
 }
 
 meta.document.textfield {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
+    border-color: hsl(0, 0%, 19%);
 }
 meta.document.textfield.highlighted {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
+    border-color: hsl(0, 0%, 19%);
 }
 
 /* Text */
 meta.text {
-    color: hsl(40, 30%, 61%);
+    color: hsl(40, 30%, 61%); /* srcery white */
 }
 meta.text.invisible {
     color: hsla(210, 100%, 90%, 0.15);
@@ -87,7 +155,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-    background-color: hsl(210, 5%, 15%);
+    background-color: hsl(0, 0%, 15%);
 }
 
 /* Indentation Guides */
@@ -97,11 +165,11 @@ meta.indentguide {
 
 /* Gutter */
 meta.gutter {
-    color: hsl(210, 5%, 38%);
+    color: hsl(0, 0%, 38%);
 }
 meta.gutter.selected {
-    background-color: hsl(210, 5%, 10%);
-    color: hsl(210, 17%, 76%);
+    background-color: hsl(40, 6%, 10%); /* srcery black */
+    color: hsl(40, 30%, 61%); /* srcery white */
 }
 
 
@@ -109,159 +177,159 @@ meta.gutter.selected {
  * Syntax styles
  */
 comment {
-    color: hsl(209, 70%, 65%);
+    color: hsl(119, 33%, 47%);  /* srcery green */
 }
 processing {
-    color: hsl(210, 20%, 50%);
+    color: hsl(26, 11%, 51%); /* srcery bright black */
 }
 declaration {
-    color: hsl(210, 20%, 50%);
+    color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 bracket {
-    color: hsl(40, 30%, 61%);
+    color: hsl(40, 30%, 61%); /* srcery white */
 }
 operator {
-    color: hsl(40, 30%, 61%);
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 invalid {
-    background-color: hsl(0, 90%, 60%);
-    color: hsl(60, 33%, 96%);
+    background-color:  hsl(6, 92%, 61%);  /* srcery bright red */
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 link {
-    color: hsl(210, 100%, 70%);
+    color: hsl(180, 100%, 25%); /* srcery teal */
 }
 
 /* Keywords */
 keyword {
-    color: hsl(210, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.modifier {
     font-style: italic;
-    color: hsl(190, 85%, 65%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.condition {
-    color: hsl(210, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.construct {
-    color: hsl(210, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.statement {
-    color: hsl(210, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.self {
-    color: hsl(210, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 keyword.self.prefix {
-    color: hsl(210, 100%, 80%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 
 /* Values */
 value.boolean {
-    color: hsl(210, 100%, 70%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 value.null {
-    color: hsl(210, 100%, 70%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 value.number {
-    color: hsl(209, 63%, 46%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 value.entity {
-    color: hsl(210, 100%, 70%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 value.symbol {
-    color: hsl(210, 100%, 70%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 
 /* Identifiers */
 identifier.type {
-    color: hsl(32, 90%, 70%);
+    color:  hsl(209, 63%, 46%); /* srcery blue */
 }
 identifier.constant,
 identifier.global,
 identifier.variable {
-    color: hsl(270, 80%, 80%);
+    color:  hsl(209, 63%, 46%); /* srcery blue */
 }
 identifier.constant.prefix,
 identifier.global.prefix,
 identifier.variable.prefix {
-    color: hsl(240, 100%, 92%);
+    color: hsl(41, 99%, 71%); /* srcery bright yellow */
 }
 identifier.property {
-    color: hsl(270, 80%, 80%);
+    color: hsl(209, 70%, 65%); /* srcery bright blue */
 }
 identifier.property.prefix {
-    color: hsl(240, 100%, 92%);
+    color: hsl(41, 99%, 71%); /* srcery bright yellow */
 }
 identifier.decorator,
 identifier.function,
 identifier.method {
-    color: hsl(160, 80%, 55%);
+    color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 identifier.key {
-    color: hsl(270, 80%, 80%);
+    color: hsl(119, 33%, 47%); /* srcery green */
 }
 identifier.argument {
-    color: hsl(270, 80%, 80%);
+    color: hsl(209, 63%, 46%); /* srcery blue */
 }
 identifier.argument.prefix {
-    color: hsl(240, 100%, 92%);
+    color: hsl(209, 63%, 46%); /* srcery blue */
 }
 
 /* Strings */
 string {
-    color: hsl(5, 80%, 65%);
+    color: hsl(76, 55%, 48%);  /* srcery bright green */
 }
 string.delimiter {
-    color: hsl(5, 80%, 60%);
+    color: hsl(76, 55%, 48%);  /* srcery bright green */
 }
 string.escape {
-    color: hsl(5, 80%, 80%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 string.key {
-    color: hsl(338, 74%, 53%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 string-keyword {
-    color: hsl(30, 100%, 90%);
+    color: hsl(76, 55%, 48%);  /* srcery bright green */
 }
 string-template {
-    color: hsl(30, 100%, 70%);
+    color: hsl(76, 55%, 48%);  /* srcery bright green */
 }
 regex {
-    color: hsl(30, 100%, 70%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 regex.escape {
-    color: hsl(30, 100%, 80%);
+    color: hsl(174, 77%, 53%); /* srcery bright cyan */
 }
 cdata {
-    color: hsl(210, 100%, 70%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 
 /* Markup */
 markup.heading {
-    color: hsl(27, 100%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
 }
 markup.line {
-    color: hsl(60, 43%, 56%);
+    color: hsl(76, 55%, 48%); /* srcery bright green */
 }
 markup.bold {
-    color: hsl(196, 49%, 53%);
+    color: hsl(209, 63%, 46%); /* srcery blue */
     font-weight: bold;
 }
 markup.italic {
-    color: hsl(94, 44%, 64%);
+    color: hsl(41, 96%, 57%); /* srcery yellow */
     font-style: italic;
 }
 markup.strikethrough {
-    color: hsl(210, 20%, 50%);
+    color: hsl(26, 11%, 51%); /* srcery bright black */
 }
 markup.list.item {
-    color: hsl(27, 100%, 70%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: hsla(0, 0%, 32%, 0.2); /* srcery xgray 5 */
 }
 markup.link {
-    color: hsl(210, 100%, 70%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 
 /* Types */
@@ -284,71 +352,72 @@ definition.method.name {
 
 /* Tags */
 tag {
-    color: hsl(160, 30%, 40%);
+    color: hsl(26, 11%, 51%); /* srcery bright black */
 }
 tag.name {
-    color: hsl(160, 60%, 60%);
-}
-tag.framework {
-    color: hsl(338, 74%, 53%);
-}
-tag.framework.name {
-    color: hsl(338, 74%, 53%);
+    color: hsl(209, 63%, 46%); /* srcery blue */
 }
 tag.attribute.name {
-    color: hsl(100, 60%, 70%);
-}
-tag.framework.attribute.name {
-    color: hsl(320, 60%, 70%);
+    color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 tag.attribute.value {
-    color: hsl(5, 80%, 65%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 tag.attribute.value.delimiter {
-    color: hsl(0, 80%, 60%);
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 tag.attribute.operator {
-    color: hsl(210, 50%, 70%);
+    color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 tag.attribute.value.link {
-    color: hsl(210, 100%, 70%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
+}
+tag.framework {
+    color: hsl(338, 74%, 53%); /* srcery magenta */
+}
+tag.framework.name {
+    color: hsl(338, 74%, 53%); /* srcery magenta */
+}
+tag.framework.attribute.name {
+    color: hsl(341, 100%, 68%); /* srcery bright magenta */
 }
 
 /* Styles */
 style.at {
-    color: hsl(32, 90%, 70%);
+    color: hsl(2, 86%, 55%); /* srcery red */
     font-weight: bold;
 }
 style.selector.element {
+    color: hsl(2, 86%, 55%); /* srcery red */
     font-weight: bold;
 }
 style.selector.identifier.id {
-    color: hsl(32, 90%, 70%);
+    color: hsl(209, 70%, 65%); /* srcery bright blue */
 }
 style.selector.identifier.class {
-    color: hsl(119, 33%, 47%);
+    color: hsl(209, 63%, 46%); /* srcery blue */
 }
 style.selector.pseudoclass {
-    color: hsl(338, 74%, 53%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 style.selector.pseudoelement {
-    color: hsl(32, 90%, 70%);
+    color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 style.attribute.name {
-    color: hsl(190, 85%, 65%);
+    color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 style.value.number {
-    color: hsl(209, 63%, 46%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 style.value.color.hex {
-    color: hsl(45, 50%, 80%);
+    color: hsl(76, 55%, 48%);  /* srcery bright green */
 }
 style.value.keyword {
-    color: hsl(210, 100%, 70%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 style.value.color.named {
-    color: hsl(210, 100%, 70%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 style.value.identifier.function {
-    color: hsl(160, 80%, 55%);
+    color: hsl(338, 74%, 53%); /* srcery magenta */
 }
