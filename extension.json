@@ -1,8 +1,11 @@
 {
-    "identifier": "johnnyvm.Srcery",
-    "name": "Srcery",
+    "identifier": "johnnyvm.srcery-nova",
+    "name": "srcery-nova",
     "organization": "JohnnyVM",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "Srcery is a dark syntax highlighting color scheme with clearly defined contrasting colors and a slightly earthy tone.",
+    "repository": "",
+    "bugs": "",
     "version": "1.0",
+    "keywords": ["dark", "earthy", "theme", "contrast", "srcery"],
     "categories": ["themes"]
 }
