@@ -3,8 +3,8 @@
     "name": "srcery-nova",
     "organization": "CMY 'Kay Studio",
     "description": "Srcery is a dark syntax highlighting color scheme with clearly defined contrasting colors and a slightly earthy tone.",
-    "repository": "",
-    "bugs": "",
+    "repository": "https://github.com/srcery-colors/srcery-nova",
+    "bugs": "https://github.com/srcery-colors/srcery-nova/issues",
     "version": "1.0",
     "keywords": ["dark", "earthy", "theme", "contrast", "srcery"],
     "categories": ["themes"]
