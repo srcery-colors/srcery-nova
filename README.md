@@ -17,7 +17,7 @@
 <h2 align="center">Srcery Theme for Nova</h2>
 
 <p align="center">
-**Srcery** is a dark syntax highlighting color scheme with clearly defined contrasting colors and a slightly earthy tone.
+Srcery is a dark syntax highlighting color scheme with clearly defined contrasting colors and a slightly earthy tone.
 
 Created using colors that logically adheres to the 16 color base palette of a terminal, while trying to retain its own identity. The colors are designed to be easy on the eyes, yet contrast well with the background for long sessions using an editor or terminal emulator.
 </p>
