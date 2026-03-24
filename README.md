@@ -28,7 +28,7 @@ Created using colors that logically adheres to the 16 color base palette of a te
 3. Open the Theme selector menu
 4. Select "Srcery" from the list of themes for both the Window and Editor
 ## Screenshots
-<img src="https://github.com/srcery-colors/srcery-nova/blob/main/Images/srcery-theme.png?raw=true">
+<img src="https://github.com/srcery-colors/srcery-nova/blob/main/Srcery.novaextension/Images/srcery-theme.png?raw=true">
 
 ## Acknowledgements
 srcery-nova is based on [_The Srcery Color Scheme_](https://srcery.sh) by [The Srcery Team](https://github.com/srcery-colors).
