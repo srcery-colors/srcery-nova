@@ -8,11 +8,11 @@ meta {
  * Window styles
  */
 meta.window {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
-    border-color: hsla(6, 92%, 61%, 0.2); /* srcery red */
+    background-color: hsl(30, 6%, 7%); /* srcery black */
+    border-color: hsla(6, 92%, 61%, 0.2); /* srcery bright red */
 }
 meta.titlebar {
-    color: hsl(40, 30%, 61%); /* srcery white */
+    color: hsl(39, 34%, 65%); /* srcery white */
     background: hsl(0, 0%, 7%); /* srcery hard black */
     border-color: hsla(41, 96%, 57%, 0.5); /* srcery yellow */
 }
@@ -20,12 +20,12 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(0, 0%, 31%) /* srcery xgray5 */, hsl(0, 0%, 23%) /* srcery xgray3 */);
+    background: linear-gradient(hsl(36, 5%, 18%) /* srcery gray 3 */, hsl(45, 6%, 14%) /* srcery gray 2 */);
     border-color: hsl(209, 63%, 46%); /* srcery blue */
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(0, 0%, 42%) /* srcery xgray8 */, hsl(0, 0%, 35%) /* srcery xgray6 */);
+    background: linear-gradient(hsl(40, 5%, 22%) /* srcery gray 4 */, hsl(36, 5%, 18%) /* srcery gray 3 */);
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.selected {
@@ -35,13 +35,13 @@ meta.button.highlighted.selected {
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 meta.button.disabled {
-  background-color: hsl(0, 0%, 27%); /* srcery xgray 4 */
+  background-color: hsl(45, 6%, 14%); /* srcery gray 2 */
   border-color: hsl(2, 86%, 55%); /* srcery red */
   color: hsl(0, 0%, 7%); /* srcery hard black */
 }
 
 meta.textfield {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
+    background-color: hsl(30, 6%, 7%); /* srcery black */
     border-color: hsl(119, 33%, 47%); /* srcery green */
 }
 meta.textfield.highlighted {
@@ -53,34 +53,34 @@ meta.textfield.highlighted {
  * Document styles
  */
 meta.document {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
+    background-color: hsl(30, 6%, 7%); /* srcery black */
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 meta.document.button {
-    background: linear-gradient(hsl(0, 0%, 23%), /* srcery xgray 3 */ hsl(0, 0%, 19%) /* srcery xgray 2 */);
+    background: linear-gradient(hsl(45, 6%, 14%), /* srcery gray 2 */ hsl(40, 6%, 10%) /* srcery gray 1 */);
     border-color: hsla(209, 63%, 46%, 0.9); /* srcery blue */
 }
 meta.document.button.disabled {
-    background-color: hsl(0, 0%, 27%); /* srcery xgray 4 */
+    background-color: hsl(45, 6%, 14%); /* srcery gray 2 */
     border-color: hsl(2, 86%, 55%); /* srcery red */
     color: hsl(0, 0%, 7%); /* srcery hard black */
 }
 meta.document.button.highlighted {
-    background: linear-gradient(hsl(0, 0%, 58%), /* srcery xgray 12 */ hsl(0, 0%, 54%) /* srcery xgray 11 */);
+    background: linear-gradient(hsl(40, 6%, 30%), /* srcery gray 6 */ hsl(43, 5%, 26%) /* srcery gray 5 */);
     border-color: hsl(180, 100%, 25%); /* srcery teal */
 }
 meta.document.textfield {
     background-color: hsl(0, 0%, 7%); /* srcery hard black */
-    border-color: hsla(40, 30%, 61%, 0.5); /* srcery white */
+    border-color: hsla(39, 34%, 65%, 0.5); /* srcery white */
 }
 meta.document.textfield.highlighted {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
+    background-color: hsl(30, 6%, 7%); /* srcery black */
     border-color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 
 /* Text */
 meta.text {
-    color: hsl(40, 30%, 61%); /* srcery white */
+    color: hsl(39, 34%, 65%); /* srcery white */
 }
 meta.text.invisible {
     color: hsla(210, 100%, 90%, 0.15);
@@ -90,7 +90,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-    background-color: hsl(0, 0%, 15%); /* srcery xgray 1 */
+    background-color: hsl(40, 6%, 10%); /* srcery gray 1 */
 }
 
 /* Indentation Guides */
@@ -100,11 +100,11 @@ meta.indentguide {
 
 /* Gutter */
 meta.gutter {
-    color: hsl(0, 0%, 38%); /* srcery xgray 7 */
+    color: hsl(40, 5%, 22%); /* srcery gray 4 */
 }
 meta.gutter.selected {
-    background-color: hsl(40, 6%, 10%); /* srcery black */
-    color: hsl(40, 30%, 61%); /* srcery white */
+    background-color: hsl(30, 6%, 7%); /* srcery black */
+    color: hsl(39, 34%, 65%); /* srcery white */
 }
 
 
@@ -115,19 +115,19 @@ comment {
     color: hsl(119, 33%, 47%);  /* srcery green */
 }
 processing {
-    color: hsl(26, 11%, 51%); /* srcery bright black */
+    color: hsl(30, 15%, 49%); /* srcery bright black */
 }
 declaration {
     color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 bracket {
-    color: hsl(40, 30%, 61%); /* srcery white */
+    color: hsl(39, 34%, 65%); /* srcery white */
 }
 operator {
     color: hsl(39, 90%, 88%); /* srcery bright white */
 }
 invalid {
-    background-color:  hsl(40, 30%, 61%); /* srcery white */
+    background-color:  hsl(39, 34%, 65%); /* srcery white */
     color: hsl(6, 92%, 61%);  /* srcery bright red */
 }
 link {
@@ -201,7 +201,7 @@ identifier.method {
     color: hsl(41, 96%, 57%); /* srcery yellow */
 }
 identifier.key {
-    color: hsl(40, 30%, 61%); /* srcery white */
+    color: hsl(39, 34%, 65%); /* srcery white */
 }
 identifier.argument {
     color: hsl(209, 63%, 46%); /* srcery blue */
@@ -255,13 +255,13 @@ markup.italic {
     font-style: italic;
 }
 markup.strikethrough {
-    color: hsl(26, 11%, 51%); /* srcery bright black */
+    color: hsl(30, 15%, 49%); /* srcery bright black */
 }
 markup.list.item {
     color: hsl(338, 74%, 53%); /* srcery magenta */
 }
 markup.code {
-    background-color: hsla(0, 0%, 32%, 0.2); /* srcery xgray 5 */
+    background-color: hsla(36, 5%, 18%, 0.2); /* srcery gray 3 */
 }
 markup.link {
     color: hsl(182, 89%, 37%); /* srcery cyan */
@@ -285,7 +285,7 @@ definition.method.name {
 
 /* Tags */
 tag {
-    color: hsl(26, 11%, 51%); /* srcery bright black */
+    color: hsl(30, 15%, 49%); /* srcery bright black */
 }
 tag.name {
     color: hsl(209, 63%, 46%); /* srcery blue */
@@ -337,7 +337,7 @@ style.selector.pseudoelement {
     color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 style.attribute.name {
-    color: hsl(40, 30%, 61%); /* srcery white */
+    color: hsl(39, 34%, 65%); /* srcery white */
 }
 style.value.number {
     color: hsl(338, 74%, 53%); /* srcery magenta */
@@ -359,7 +359,7 @@ style.value.identifier.function {
  * Terminal Colors (ANSI)
  */
 terminal.black {
-  color: hsl(40, 6%, 10%); /* srcery black */
+  color: hsl(30, 6%, 7%); /* srcery black */
 }
 terminal.red {
   color: hsl(2, 86%, 55%); /* srcery red */
@@ -380,12 +380,12 @@ terminal.cyan {
   color: hsl(182, 89%, 37%); /* srcery cyan */
 }
 terminal.white {
-  color: hsl(40, 30%, 61%); /* srcery white */
+  color: hsl(39, 34%, 65%); /* srcery white */
 }
 
 /* Bright ANSI Colors */
 terminal.brightBlack {
-  color: hsl(26, 11%, 51%); /* srcery bright black */
+  color: hsl(30, 15%, 49%); /* srcery bright black */
 }
 terminal.brightRed {
   color: hsl(6, 92%, 61%); /* srcery bright red */
