@@ -13,7 +13,7 @@ meta.window {
 }
 meta.titlebar {
     color: hsl(39, 34%, 65%); /* srcery white */
-    background: hsl(0, 0%, 7%); /* srcery hard black */
+    background: hsl(30, 5%, 5%); /* srcery hard black */
     border-color: hsla(41, 96%, 57%, 0.5); /* srcery yellow */
 }
 meta.titlebar.inactive {
@@ -37,7 +37,7 @@ meta.button.highlighted.selected {
 meta.button.disabled {
   background-color: hsl(45, 6%, 14%); /* srcery gray 2 */
   border-color: hsl(2, 86%, 55%); /* srcery red */
-  color: hsl(0, 0%, 7%); /* srcery hard black */
+  color: hsl(30, 5%, 5%); /* srcery hard black */
 }
 
 meta.textfield {
@@ -45,7 +45,7 @@ meta.textfield {
     border-color: hsl(119, 33%, 47%); /* srcery green */
 }
 meta.textfield.highlighted {
-    background-color: hsl(0, 0%, 7%); /* srcery hard black */
+    background-color: hsl(30, 5%, 5%); /* srcery hard black */
     border-color: hsl(119, 33%, 47%); /* srcery green */
 }
 
@@ -63,14 +63,14 @@ meta.document.button {
 meta.document.button.disabled {
     background-color: hsl(45, 6%, 14%); /* srcery gray 2 */
     border-color: hsl(2, 86%, 55%); /* srcery red */
-    color: hsl(0, 0%, 7%); /* srcery hard black */
+    color: hsl(30, 5%, 5%); /* srcery hard black */
 }
 meta.document.button.highlighted {
     background: linear-gradient(hsl(40, 6%, 30%), /* srcery gray 6 */ hsl(43, 5%, 26%) /* srcery gray 5 */);
     border-color: hsl(180, 100%, 25%); /* srcery teal */
 }
 meta.document.textfield {
-    background-color: hsl(0, 0%, 7%); /* srcery hard black */
+    background-color: hsl(30, 5%, 5%); /* srcery hard black */
     border-color: hsla(39, 34%, 65%, 0.5); /* srcery white */
 }
 meta.document.textfield.highlighted {
