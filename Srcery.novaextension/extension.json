@@ -7,6 +7,7 @@
     "repository": "https://github.com/srcery-colors/srcery-nova",
     "bugs": "https://github.com/srcery-colors/srcery-nova/issues",
     "version": "2.1",
+    "license": "MIT",
     "keywords": ["dark", "earthy", "theme", "contrast", "srcery"],
     "categories": ["themes"]
 }
